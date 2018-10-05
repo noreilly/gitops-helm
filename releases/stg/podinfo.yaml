@@ -7,7 +7,6 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: glob:stg-*
-    flux.weave.works/locked: 'true'
 spec:
   chartGitPath: podinfo
   releaseName: podinfo-rc
